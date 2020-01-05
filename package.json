@@ -1,0 +1,28 @@
+{
+  "name": "sticker-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnlklbv/sticker-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnlklbv/sticker-bot/issues"
+  },
+  "homepage": "https://github.com/dnlklbv/sticker-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "jimp": "^0.9.3",
+    "node-telegram-bot-api": "^0.40.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1"
+  }
+}

@@ -1,1 +1,9 @@
-# pic2stick
+# sticker-bot
+
+## Install
+
+```
+cp .env.dist .env
+```
+
+Insert values
