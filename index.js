@@ -17,6 +17,7 @@ bot.on('document', async (msg) => {
   const fileLink = await bot.getFileLink(document.file_id);
   const buffer = await processImage(fileLink);
 
-  const fileOptions = { filename: `sticker-${document.file_name}` };
+  const filename = `${document.file_name.split('.').slice(0, -1).join('.')}-sticker.png`;
+  const fileOptions = { filename };
   bot.sendDocument(chat.id, buffer, {}, fileOptions);
 });
